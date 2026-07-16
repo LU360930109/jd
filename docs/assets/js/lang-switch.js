@@ -67,8 +67,18 @@ class LanguageSwitcher {
         const lang = button.getAttribute('data-lang');
         this.switchLanguage(lang);
       });
-      
-      // Highlight current language button
+    });
+    
+    // Update active state based on current language
+    this.updateActiveButton();
+  }
+  
+  updateActiveButton() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+    langButtons.forEach(button => {
+      // Remove active class from all buttons first
+      button.classList.remove('active');
+      // Add active class to current language button
       if (button.getAttribute('data-lang') === this.currentLang) {
         button.classList.add('active');
       }
