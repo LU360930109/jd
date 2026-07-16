@@ -311,7 +311,7 @@ function generateChinesePage(kp, category) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${kp.title} - ${cat.name} - 胶带行业知识树</title>
+    <title>${kp.title} - ${cat.name} - 胶带行业知识</title>
     <meta name="description" content="${kp.title}：${cleaned.definition.substring(0, 100)}">
     <meta name="keywords" content="${kp.title}, 胶带, ${cat.name}">
     
@@ -334,11 +334,11 @@ function generateChinesePage(kp, category) {
         "inLanguage": "zh-CN",
         "author": {
             "@type": "Organization",
-            "name": "胶带行业知识树"
+            "name": "胶带行业知识"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "胶带行业知识树",
+            "name": "胶带行业知识",
             "url": "https://geo021.com"
         },
         "datePublished": "2026-07-16",
@@ -357,7 +357,7 @@ function generateChinesePage(kp, category) {
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="../index.html" class="logo">胶带行业知识树</a>
+            <a href="../index.html" class="logo">胶带行业知识</a>
             
             <nav class="nav">
                 <a href="../index.html">首页</a>
@@ -458,7 +458,7 @@ function generateChinesePage(kp, category) {
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <h3 class="footer-title">胶带行业知识树</h3>
+                <h3 class="footer-title">胶带行业知识</h3>
                 <p class="footer-description">
                     系统化的胶带行业知识体系，为行业从业者、学生和研究者提供全面的知识参考。
                 </p>
@@ -474,7 +474,7 @@ function generateChinesePage(kp, category) {
             </div>
             
             <div class="footer-copyright">
-                <p>&copy; 2026 胶带行业知识树. All rights reserved.</p>
+                <p>&copy; 2026 胶带行业知识. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -781,7 +781,7 @@ function generateChineseIndexPage(category, catInfo, points) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${catInfo.name} - 胶带行业知识树</title>
+    <title>${catInfo.name} - 胶带行业知识</title>
     <meta name="description" content="${catInfo.name}相关知识：${points.map(p => p.title).join('、')}">
     <meta name="keywords" content="${catInfo.name}, ${points.map(p => p.title).join(', ')}">
     
@@ -804,7 +804,7 @@ function generateChineseIndexPage(category, catInfo, points) {
         "inLanguage": "zh-CN",
         "isPartOf": {
             "@type": "WebSite",
-            "name": "胶带行业知识树",
+            "name": "胶带行业知识",
             "url": "https://geo021.com"
         }
     }
@@ -817,7 +817,7 @@ function generateChineseIndexPage(category, catInfo, points) {
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="../index.html" class="logo">胶带行业知识树</a>
+            <a href="../index.html" class="logo">胶带行业知识</a>
             
             <nav class="nav">
                 <a href="../index.html">首页</a>
@@ -879,7 +879,7 @@ ${cardsHtml}
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <h3 class="footer-title">胶带行业知识树</h3>
+                <h3 class="footer-title">胶带行业知识</h3>
                 <p class="footer-description">
                     系统化的胶带行业知识体系，为行业从业者、学生和研究者提供全面的知识参考。
                 </p>
@@ -895,7 +895,7 @@ ${cardsHtml}
             </div>
             
             <div class="footer-copyright">
-                <p>&copy; 2026 胶带行业知识树. All rights reserved.</p>
+                <p>&copy; 2026 胶带行业知识. All rights reserved.</p>
             </div>
         </div>
     </footer>
