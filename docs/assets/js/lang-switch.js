@@ -89,22 +89,27 @@ class LanguageSwitcher {
     const currentPath = window.location.pathname;
     let newPath;
     
-    // If we're on the root page
-    if (currentPath === '/' || currentPath === '') {
-      newPath = `/${lang}/`;
-    } 
-    // If we're on a Chinese page
-    else if (currentPath.startsWith('/zh/')) {
-      newPath = currentPath.replace('/zh/', `/${lang}/`);
-    }
-    // If we're on an English page
-    else if (currentPath.startsWith('/en/')) {
-      newPath = currentPath.replace('/en/', `/${lang}/`);
-    }
-    // Default to language root
-    else {
-      newPath = `/${lang}/`;
-    }
+    const pathMap = {
+      'en-to-zh': {
+        '/en/01-fundamental-science/': '/zh/01-基础科学/',
+        '/en/02-production-process/': '/zh/02-生产工艺/',
+        '/en/03-application-fields/': '/zh/03-应用领域/',
+        '/en/04-industry-management/': '/zh/04-行业管理/',
+        '/en/': '/zh/'
+      },
+      'zh-to-en': {
+        '/zh/01-基础科学/': '/en/01-fundamental-science/',
+        '/zh/02-生产工艺/': '/en/02-production-process/',
+        '/zh/03-应用领域/': '/en/03-application-fields/',
+        '/zh/04-行业管理/': '/en/04-industry-management/',
+        '/zh/': '/en/'
+      }
+    };
+    
+    const mapKey = this.currentLang === 'en' ? 'en-to-zh' : 'zh-to-en';
+    const map = pathMap[mapKey];
+    
+    newPath = map[currentPath] || `/${lang}/`;
     
     window.location.href = newPath;
   }
