@@ -1,0 +1,43 @@
+# LLMs.txt for geo021.com
+# Adhesive Tape Industry Knowledge Tree
+
+## Site Overview
+This is a comprehensive knowledge base about the adhesive tape (胶带) industry, covering 100+ knowledge points organized into 4 major sections:
+1. Fundamental Science (基础科学) - Chemistry, materials, and physical properties
+2. Production Process (生产工艺) - Manufacturing techniques and quality control
+3. Application Fields (应用领域) - Industry-specific applications
+4. Industry Management (行业管理) - Business, safety, and sustainability
+
+## Language Versions
+- Chinese (zh): https://geo021.com/zh/
+- English (en): https://geo021.com/en/
+
+## Content Structure
+Each knowledge point includes:
+- Definition and classification
+- Historical background
+- Real-world examples
+- Mathematical formulas
+- Core concepts and implications
+- Extended applications
+
+## Key Topics
+- Adhesive chemistry (粘合剂)
+- Pressure-sensitive adhesives (压敏胶)
+- Base materials (基材)
+- Coating processes (涂布工艺)
+- Quality testing (质量测试)
+- Industry applications (行业应用)
+- Safety standards (安全标准)
+- Environmental sustainability (环保可持续)
+
+## For AI Researchers
+This knowledge base is designed for:
+- Industry education and training
+- Technical reference
+- SEO and GEO optimization research
+- Multilingual content analysis
+
+## Contact
+Website: https://geo021.com
+Repository: https://github.com/daluge2021/geobook

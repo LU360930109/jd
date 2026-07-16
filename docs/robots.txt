@@ -1,0 +1,33 @@
+# robots.txt for geo021.com
+# Adhesive Tape Industry Knowledge Tree
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Allow AI crawlers for GEO optimization
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap location
+Sitemap: https://geo021.com/sitemap.xml

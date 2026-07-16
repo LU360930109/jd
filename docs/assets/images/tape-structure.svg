@@ -1,0 +1,57 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" rx="8"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">胶带结构示意图</text>
+  <text x="200" y="50" text-anchor="middle" font-size="12" fill="#666">Adhesive Tape Structure</text>
+  
+  <!-- Tape Layers -->
+  <!-- Release Paper -->
+  <rect x="50" y="80" width="300" height="30" fill="#e0e0e0" stroke="#ccc" stroke-width="1" rx="4"/>
+  <text x="200" y="100" text-anchor="middle" font-size="12" fill="#666">离型纸 (Release Paper)</text>
+  
+  <!-- Release Agent -->
+  <rect x="50" y="115" width="300" height="20" fill="#b0bec5" stroke="#90a4ae" stroke-width="1"/>
+  <text x="200" y="130" text-anchor="middle" font-size="10" fill="#fff">离型剂 (Release Agent)</text>
+  
+  <!-- Adhesive Layer -->
+  <rect x="50" y="140" width="300" height="40" fill="#0066cc" stroke="#004499" stroke-width="1"/>
+  <text x="200" y="165" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">胶层 (Adhesive Layer)</text>
+  
+  <!-- Base Material -->
+  <rect x="50" y="185" width="300" height="30" fill="#4caf50" stroke="#388e3c" stroke-width="1"/>
+  <text x="200" y="205" text-anchor="middle" font-size="12" fill="#fff">基材 (Base Material)</text>
+  
+  <!-- Arrows and Labels -->
+  <!-- Left arrow -->
+  <line x1="30" y1="150" x2="50" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="25" y="155" text-anchor="end" font-size="10" fill="#333">厚度方向</text>
+  
+  <!-- Right arrow -->
+  <line x1="350" y1="150" x2="370" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="375" y="155" text-anchor="start" font-size="10" fill="#333">厚度方向</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <rect x="50" y="240" width="15" height="15" fill="#e0e0e0" stroke="#ccc" stroke-width="1"/>
+  <text x="70" y="252" font-size="10" fill="#666">离型纸</text>
+  
+  <rect x="120" y="240" width="15" height="15" fill="#b0bec5" stroke="#90a4ae" stroke-width="1"/>
+  <text x="140" y="252" font-size="10" fill="#666">离型剂</text>
+  
+  <rect x="190" y="240" width="15" height="15" fill="#0066cc" stroke="#004499" stroke-width="1"/>
+  <text x="210" y="252" font-size="10" fill="#666">胶层</text>
+  
+  <rect x="260" y="240" width="15" height="15" fill="#4caf50" stroke="#388e3c" stroke-width="1"/>
+  <text x="280" y="252" font-size="10" fill="#666">基材</text>
+  
+  <!-- Notes -->
+  <text x="200" y="280" text-anchor="middle" font-size="10" fill="#999">注：实际胶带结构可能因类型不同而有所差异</text>
+</svg>

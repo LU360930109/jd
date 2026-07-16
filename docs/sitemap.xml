@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Main Pages -->
+  <url>
+    <loc>https://geo021.com/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Chinese Section Pages -->
+  <url>
+    <loc>https://geo021.com/zh/01-基础科学/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/01-基础科学/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/01-fundamental-science/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/zh/01-基础科学/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/zh/02-生产工艺/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/02-生产工艺/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/02-production-process/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/zh/02-生产工艺/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/zh/03-应用领域/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/03-应用领域/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/03-application-fields/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/zh/03-应用领域/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/zh/04-行业管理/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/04-行业管理/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/04-industry-management/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/zh/04-行业管理/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- English Section Pages -->
+  <url>
+    <loc>https://geo021.com/en/01-fundamental-science/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/01-基础科学/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/01-fundamental-science/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/en/01-fundamental-science/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/en/02-production-process/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/02-生产工艺/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/02-production-process/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/en/02-production-process/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/en/03-application-fields/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/03-应用领域/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/03-application-fields/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/en/03-application-fields/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://geo021.com/en/04-industry-management/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://geo021.com/zh/04-行业管理/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://geo021.com/en/04-industry-management/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://geo021.com/en/04-industry-management/" />
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
